@@ -1,0 +1,29 @@
+Customer - 7080
+Product - 7081
+cart - 7082
+inventory - 7083
+order - 7084
+shopping-service - 7085
+Eureka Naming server-8761
+Api Gateway - 8765
+
+
+
+
+
+select * from ors.products;
+
+select * from ors.inventory;
+
+select * from ors.customer;
+select * from ors.cart;
+commit;
+
+select * from ors.cart_line_item;
+
+select * from ors.line_item;
+
+select * from ors.products;
+select * from ors.inventory;
+select * from ors.eorder;
+select * from ors.eorder_line_item;
